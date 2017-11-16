@@ -36,11 +36,11 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bootstrap-vue/bootstrap-vue/issues"
+    "url": "https://github.com/JeanBarriere/bootstrap-vue/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bootstrap-vue/bootstrap-vue.git"
+    "url": "git+https://github.com/JeanBarriere/bootstrap-vue.git"
   },
   "files": [
     "src",

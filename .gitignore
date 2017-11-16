@@ -1,6 +1,5 @@
 node_modules/
 *.log
-/dist
 *.iml
 .idea
 .nuxt
@@ -10,4 +9,3 @@ workbox*.js*
 .DS_Store
 .vscode
 coverage
-es
