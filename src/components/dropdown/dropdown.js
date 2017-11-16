@@ -97,7 +97,11 @@ export default {
         role: {
             type: String,
             default: 'menu'
-        }
+        },
+	customMenuClasses: {
+	    type: String,
+	    default: ''
+	}
     },
     computed: {
         dropdownClasses() {
@@ -113,7 +117,8 @@ export default {
             return [
                 'dropdown-menu',
                 this.right ? 'dropdown-menu-right' : '',
-                this.visible ? 'show' : ''
+                this.visible ? 'show' : '',
+		this.customMenuClasses
             ];
         }
     }
